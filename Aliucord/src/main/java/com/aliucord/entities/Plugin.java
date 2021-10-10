@@ -171,7 +171,7 @@ public abstract class Plugin {
      * @param event The event
      * @param params Params necessary for the event
      */
-    public void onDispatch(String event, Object[] ...params) throws Throwable {};
+    public void onDispatch(String event, Object ...params) throws Throwable {};
 
     /** Name of this plugin. Defaults to the class name */
     @Deprecated
