@@ -159,11 +159,19 @@ public abstract class Plugin {
      */
     public abstract void start(Context context) throws Throwable;
 
+
     /**
      * Called when your Plugin is stopped
      * @param context Context
      */
     public abstract void stop(Context context) throws Throwable;
+
+    /**
+     * Called when your plugin receives an event from another plugin
+     * @param event The event
+     * @param params Params necessary for the event
+     */
+    public void onDispatch(String event, Object[] ...params) throws Throwable {};
 
     /** Name of this plugin. Defaults to the class name */
     @Deprecated
