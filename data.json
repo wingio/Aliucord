@@ -1,5 +1,8 @@
 {
   "versionCode": "126021",
   "versionName": "126.21",
-  "aliucordHash": "adf80a8"
+  "coreVersion": "2.1.0",
+  "injectorVersion": "2.1.0",
+  "patchesVersion": "1.1.0",
+  "aliucordHash": "0000000"
 }
